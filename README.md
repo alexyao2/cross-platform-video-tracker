@@ -43,7 +43,7 @@ TIKTOK_DATA_DIR=./tiktok_sessions
 python main.py youtube --channel-id <CHANNEL_ID>
 
 # Sync TikTok Creator
-python mian.py tiktok --username <USERNAME>
+python main.py tiktok --username <USERNAME>
 ```
 
 ## Disclaimer
