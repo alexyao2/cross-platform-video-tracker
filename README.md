@@ -23,6 +23,19 @@ A data engineering pipeline to ingest, normalize, and compare engagement metrics
 2. env.: Be sure to modify .env with your YouTube API key and proxy credentials, or it will
    not run!
 ```
+```.env
+# YouTube Data API Key (from Google Cloud Console)
+YOUTUBE_API_KEY=your_api_key_here
+
+# TikTok Proxy Settings (Webshare or similar)
+TIKTOK_PROXY_SERVER=http://proxy_address:port
+TIKTOK_PROXY_USER=your_username
+TIKTOK_PROXY_PASS=your_password
+
+# Storage Path
+TIKTOK_DATA_DIR=./tiktok_sessions
+```
+
 
 ## Usage
 ```bash
