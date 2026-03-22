@@ -2,6 +2,9 @@ services:
   tracker-app:
     build: .
     container_name: video_tracker
+    # Example Usage: 
+    # YouTube: ["python", "main.py", "youtube", "--channel-id", "UC123..."]
+    # TikTok:  ["python", "main.py", "tiktok",  "--username",   "user_name"]
     command: ["python", "main.py", "youtube", "--channel-id", "YOUR_ID_HERE"]
     volumes:
       # Syncs your local DB and logs with the container
